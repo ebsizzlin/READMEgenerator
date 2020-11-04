@@ -6,6 +6,14 @@ function generateMarkdown(data) {
   ${data.desc}
 
   ## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributers](#contributers)
+  * [Test](#test)
+  * [License](#license)
+  * [Repository] (#repository)
+  * [Questions](#questions)
 
   ## Installation
   ${data.install}
@@ -18,13 +26,17 @@ function generateMarkdown(data) {
 
   ## Test
   ${data.test}
-
+  
+  ## License
+  MIT License
+  
+  ## Repository
+  * [Project Repo](${data.repo})
+  
   ## Questions
   Any questions? Find ${data.username} on GitHub or email ${data.email}!
 
-  ## License
-  MIT License
-`;
+  `;
 }
 
 module.exports = generateMarkdown;
