@@ -14,6 +14,8 @@
 // WHEN I click on the links in the Table of Contents
 // THEN I am taken to the corresponding section of the README
 
+var inquirer = require('inquirer');
+var fs = require('fs');
 
 // array of questions for user
 const questions = [
@@ -22,6 +24,12 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeToFile(fileName, data, err => {
+        if (err)    {
+            return console.log(err);
+        }
+        console.log('Success! Your README.md is generated.')
+    })
 }
 
 // function to initialize program
