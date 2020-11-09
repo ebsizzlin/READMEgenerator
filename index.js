@@ -15,13 +15,15 @@
 // THEN I am taken to the corresponding section of the README
 
 var inquirer = require('inquirer');
+var fs = require('fs');
+const generateMarkdown = require('./generateMarkdown');
 
 // array of questions for user
 const questions = [
     {
         type: "input",
         message: "What is your name??",
-        name: "username"
+        name: "name"
     },
 
     {
@@ -69,7 +71,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeToFile(fileName, data, err => {
+    fs.writeFileSync(fileName, data, err => { //fails because filename needs a path to it, data needs string
         if (err)    {
             return console.log(err);
         }
@@ -81,16 +83,12 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
     .prompt(questions)
-    .then(answers => {
-        // Use user feedback for... whatever!!
+    .then(function(data)    {
+
+        var formattedData = generateMarkdown(data);
+
+        writeToFile('README.md', formattedData);
     })
-    .catch(error => {
-        if(error.isTtyError) {
-        // Prompt couldn't be rendered in the current environment
-        } else {
-        // Something else when wrong
-        }
-    });
 }
 
 // function call to initialize program
