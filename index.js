@@ -15,7 +15,6 @@
 // THEN I am taken to the corresponding section of the README
 
 var inquirer = require('inquirer');
-var fs = require('fs');
 
 // array of questions for user
 const questions = [
@@ -80,7 +79,18 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirer
+    .prompt(questions)
+    .then(answers => {
+        // Use user feedback for... whatever!!
+    })
+    .catch(error => {
+        if(error.isTtyError) {
+        // Prompt couldn't be rendered in the current environment
+        } else {
+        // Something else when wrong
+        }
+    });
 }
 
 // function call to initialize program
