@@ -26,7 +26,7 @@ function generateMarkdown(data) {
   ${data.usage}
   
   ## License
-  ${data.license === "MIT License" ? "This application uses The MIT License" : data.license === "Apache License" ? "This application uses The Apache License" : data.license === "GPL License" ? "This application uses The GPL License" : "This application is unlicensed"}
+  ${data.license}
 
   ## Contributers
   ${data.name}
@@ -35,7 +35,7 @@ function generateMarkdown(data) {
   ${data.test}
   
   ## Questions
-  Any questions? Contact [${data.username}]{https://github.com/${data.username}/) on GitHub or email [${data.email}](mailto:${data.email})
+  Any questions? Contact [${data.username}]{https://github.com/${data.username}) on GitHub or email [${data.email}](mailto:${data.email})
 
   `;
 }

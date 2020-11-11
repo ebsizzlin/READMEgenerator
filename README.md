@@ -6,7 +6,7 @@
   This project generates a pre-formatted README.
 
   ## Technology Used:
-  JavaScript, node.js
+  JS, node.js
 
   ## Table of Contents
   * [Description](#description)
@@ -18,21 +18,21 @@
   * [Questions](#questions)
 
   ## Installation
-  Run ' npm install '
+  npm install
 
   ## Usage
-  Open the terminal in VS Code and use Inquirer.
+  Use node.js and run Inquirer.
   
   ## License
-  This application is unlicensed
+  MIT
 
   ## Contributers
-  ebsizzlin, Stack Overflow, BSC Tutoring
+  ebsizzlin, SO, BCS Tutoring
 
   ## Test
-  Run ' npm tests '
+  npm tests
   
   ## Questions
-  Any questions? Contact [ebsizzlin]{https://github.com/ebsizzlin/) on GitHub or email [fang98t@gmail.com](mailto:fang98t@gmail.com)
+  Any questions? Contact [ebsizzlin]{https://github.com/ebsizzlin) on GitHub or email [fang98t@gmail.com](mailto:fang98t@gmail.com)
 
   
