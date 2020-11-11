@@ -1,38 +1,49 @@
 # Project Title : README Generator
 
-  [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-  ## Project Description:
-  This project creates a pre-formatted README.
+## Project Description:
 
-  ## Technology Used:
-  JS, node.js
+This project creates a pre-formatted README.
 
-  ## Table of Contents
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributers](#contributers)
-  * [Tests](#test)
-  * [Questions](#questions)
+## Technology Used:
 
-  ## Installation
-  npm install
+JS, node.js
 
-  ## Usage
-  Run node.js and use Inquirer.
-  
-  ## License
-  MIT
+## Table of Contents
 
-  ## Contributers
-  ebsizzlin, Stack Overflow, BCS Tutoring
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributers](#contributers)
+- [Tests](#test)
+- [Questions](#questions)
 
-  ## Test
-  npm tests
-  
-  ## Questions
-  Any questions? Contact [ebsizzlin](https://github.com/ebsizzlin) on GitHub or email [fang98t@gmail.com](mailto:fang98t@gmail.com)
+## Installation
 
-  
+npm install
+
+## Usage
+
+Run node.js and use Inquirer
+
+## License
+
+MIT
+
+## Contributers
+
+ebsizzlin, Stack Overflow, BCS Tutoring
+
+## Test
+
+npm tests
+
+## Questions
+
+Any questions? Contact [ebsizzlin](https://github.com/ebsizzlin) on GitHub or email [fang98t@gmail.com](mailto:fang98t@gmail.com)
+
+## Walkthrough
+
+https://drive.google.com/file/d/17BNf5yC6m0vQ4rxyv64TAFIUL7N3Vkgt/view?usp=sharing
