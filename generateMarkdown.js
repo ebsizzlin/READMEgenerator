@@ -37,7 +37,7 @@ function generateMarkdown(data) {
   ## Questions
   Any questions? Contact [${data.username}](https://github.com/${data.username}) on GitHub or email [${data.email}](mailto:${data.email})
 
-  ## Demonstration
+  ## Walkthrough
   https://drive.google.com/file/d/17BNf5yC6m0vQ4rxyv64TAFIUL7N3Vkgt/view?usp=sharing
 
   `;
