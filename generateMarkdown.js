@@ -3,16 +3,16 @@ function generateMarkdown(data) {
   return `# Project Title : ${data.title}
 
   ## Project Description:
-  ${data.desc}
+  ${data.description}
+  ${data.tech}
 
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributers](#contributers)
-  * [Test](#test)
   * [License](#license)
-  * [Repository] (#repository)
+  * [Contributers](#contributers)
+  * [Tests](#test)
   * [Questions](#questions)
 
   ## Installation
@@ -20,18 +20,15 @@ function generateMarkdown(data) {
 
   ## Usage
   ${data.usage}
+  
+  ## License
+  ${data.liscence}
 
   ## Contributers
   ${data.name}
 
   ## Test
   ${data.test}
-  
-  ## License
-  MIT License
-  
-  ## Repository
-  * [Project Repo](${data.repo})
   
   ## Questions
   Any questions? Find ${data.username} on GitHub or email ${data.email}!

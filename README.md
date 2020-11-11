@@ -1,37 +1,34 @@
-# Project Title : e
+# Project Title : READMEgenerator
 
   ## Project Description:
-  undefined
+  This project generates a pre-formatted README.
+  JavaScript, Node.js
 
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributers](#contributers)
-  * [Test](#test)
   * [License](#license)
-  * [Repository] (#repository)
+  * [Contributers](#contributers)
+  * [Tests](#test)
   * [Questions](#questions)
 
   ## Installation
-  undefined
+  Use ' npm install ' in the terminal
 
   ## Usage
-  undefined
-
-  ## Contributers
-  undefined
-
-  ## Test
-  undefined
+  Open the terminal in VS Code and use Inquirer after installing node_modules.
   
   ## License
-  MIT License
-  
-  ## Repository
-  * [Project Repo](undefined)
+  MIT
+
+  ## Contributers
+  @ebsizzlin, Stack Overflow, BCS Tutoring
+
+  ## Test
+  Use ' npm tests '
   
   ## Questions
-  Any questions? Find e on GitHub or email e!
+  Any questions? Find ebsizzlin on GitHub or email fang98t@gmail.com!
 
   

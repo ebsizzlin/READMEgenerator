@@ -1,6 +1,3 @@
-// GIVEN a command-line application that accepts user input
-// WHEN I am prompted for information about my application repository
-// THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 // WHEN I enter my project title
 // THEN this is displayed as the title of the README
 // WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
@@ -22,51 +19,64 @@ const generateMarkdown = require('./generateMarkdown');
 const questions = [
     {
         type: "input",
-        message: "What is your name??",
-        name: "name"
+        message: "What is your GitHub username?",
+        name: "username"
     },
 
     {
         type: 'input',
-        message: "What is your email?",
+        message: "What is your email?:",
         name: 'email'
     },
 
     {
         type: 'input',
-        message: "What is your Github username?",
-        name: 'username'
-    },
-
-    {
-        type: 'input',
-        message: "What is your ReadMe title?",
+        message: "What is the title of your project?",
         name: 'title'
     },
 
     {
         type: 'input', 
-        message: "Enter a brief description",
+        message: "Enter a brief description:",
         name: 'description'
     },
 
     {
+        type: "input",
+        message: "What technologies were used on this project?",
+        name: "tech"
+    },
+    
+    {
         type: 'input',
-        message: "Are there any guidlines for how developers can contribute to your project?",
-        name: 'guidelines'
+        message: "How do you use this project?",
+        name: 'usage'
+    },
+
+    {
+        type: "input",
+        message: "How do you install dependencies?",
+        name: "install"
     },
 
     {
         type: 'input',
-        message: "What is your name?",
-        name: 'name'
+        message: "What do you run to test this?",
+        name: 'test',
     },
 
     {
         type: 'input',
-        message: "Provide any tests for your application on how to run them.",
-        name: 'tests',
+        message: "What lisence?",
+        name: 'liscence'
+    },
+
+    {
+        type: "input",
+        message: "Who contributed to this project?",
+        name: "name"
     }
+
 ];
 
 // function to write README file
