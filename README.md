@@ -1,8 +1,12 @@
 # Project Title : READMEgenerator
 
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+
   ## Project Description:
   This project generates a pre-formatted README.
-  JavaScript, Node.js
+
+  ## Technology Used:
+  JavaScript, node.js
 
   ## Table of Contents
   * [Description](#description)
@@ -14,21 +18,21 @@
   * [Questions](#questions)
 
   ## Installation
-  Use ' npm install ' in the terminal
+  Run ' npm install '
 
   ## Usage
-  Open the terminal in VS Code and use Inquirer after installing node_modules.
+  Open the terminal in VS Code and use Inquirer.
   
   ## License
-  MIT
+  This application is unlicensed
 
   ## Contributers
-  @ebsizzlin, Stack Overflow, BCS Tutoring
+  ebsizzlin, Stack Overflow, BSC Tutoring
 
   ## Test
-  Use ' npm tests '
+  Run ' npm tests '
   
   ## Questions
-  Any questions? Find ebsizzlin on GitHub or email fang98t@gmail.com!
+  Any questions? Contact [ebsizzlin]{https://github.com/ebsizzlin/) on GitHub or email [fang98t@gmail.com](mailto:fang98t@gmail.com)
 
   

@@ -63,7 +63,7 @@ const questions = [
     {
         type: 'input',
         message: "Choose a license:",
-        name: 'licence',
+        name: 'license',
         choices: [
             "MIT License",
             "Apache License",
@@ -77,7 +77,6 @@ const questions = [
         message: "Who contributed to this project?",
         name: "name"
     }
-
 ];
 
 // function to write README file
