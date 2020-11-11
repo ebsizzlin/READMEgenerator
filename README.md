@@ -1,9 +1,9 @@
-# Project Title : READMEgenerator
+# Project Title : README Generator
 
-  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+  [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
   ## Project Description:
-  This project generates a pre-formatted README.
+  This project creates a pre-formatted README.
 
   ## Technology Used:
   JS, node.js
@@ -21,18 +21,18 @@
   npm install
 
   ## Usage
-  Use node.js and run Inquirer.
+  Run node.js and use Inquirer.
   
   ## License
   MIT
 
   ## Contributers
-  ebsizzlin, SO, BCS Tutoring
+  ebsizzlin, Stack Overflow, BCS Tutoring
 
   ## Test
   npm tests
   
   ## Questions
-  Any questions? Contact [ebsizzlin]{https://github.com/ebsizzlin) on GitHub or email [fang98t@gmail.com](mailto:fang98t@gmail.com)
+  Any questions? Contact [ebsizzlin](https://github.com/ebsizzlin) on GitHub or email [fang98t@gmail.com](mailto:fang98t@gmail.com)
 
   
